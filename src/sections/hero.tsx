@@ -4,6 +4,12 @@ import Navbar from '@/components/navbar';
 const Hero = () => {
   return (
     <section className="max-w-[83.938rem] min-h-svh relative mx-auto px-4 sm:px-6 lg:px-8 xl:px-0">
+      {/* Yellow Light Effect */}
+      {/* <div
+        className="absolute top-0 left-0 w-[300px] h-[300px] rounded-full bg-[#E4B40D] opacity-20 blur-[100px] pointer-events-none"
+        aria-hidden="true"
+      ></div> */}
+
       <Navbar />
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between pt-16 lg:pt-0 relative z-10">
         <div

@@ -1,12 +1,23 @@
+import YellowLight from './components/yellow-light';
 import FAQS from './sections/faq';
 import Footer from './sections/footer';
 import Hero from './sections/hero';
 
 const App = () => {
   return (
-    <main className="min-h-screen bg-[#071624] overflow-x-hidden">
+    <main className="relative bg-[#071624] min-h-screen overflow-hidden">
+      <YellowLight top="top-0" left="left-48" size="w-[400px] h-[300px]" />
       <Hero />
-      <FAQS />
+      <div className="relative">
+        <YellowLight
+          top="top-1/2"
+          left="-left-36"
+          size="w-[400px] h-[200px]"
+          opacity="opacity-20"
+        />
+        <FAQS />
+      </div>
+
       <Footer />
     </main>
   );
