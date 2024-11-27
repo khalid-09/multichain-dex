@@ -11,7 +11,7 @@ const TableBlock = ({ index }: TableBlockProps) => {
       <div
         className={cn(
           'border-r border-b flex items-center md:pl-8 border-[#D9D9D91A]',
-          heading && 'justify-center'
+          heading && 'justify-center pb-4 pb-0'
         )}
       >
         {heading ? (
@@ -24,14 +24,24 @@ const TableBlock = ({ index }: TableBlockProps) => {
           </p>
         )}
       </div>
-      <div className="border-b border-r border-[#D9D9D91A] flex justify-center items-center">
+      <div
+        className={cn(
+          'border-b border-r border-[#D9D9D91A] flex justify-center items-center',
+          heading && 'pb-3 pb-0'
+        )}
+      >
         {heading ? (
           <img src="/about.png" alt="moonex logo" />
         ) : (
           <img src="/right.png" alt="right icon" />
         )}
       </div>
-      <div className="border-b flex items-center justify-center border-[#D9D9D91A]">
+      <div
+        className={cn(
+          'border-b flex items-center justify-center border-[#D9D9D91A]',
+          heading && 'pb-4 md:pb-0'
+        )}
+      >
         {heading ? (
           <img src="/uniswap.png" alt="uniswap logo" />
         ) : (
