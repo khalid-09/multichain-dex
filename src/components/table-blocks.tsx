@@ -11,7 +11,7 @@ const TableBlock = ({ index }: TableBlockProps) => {
       <div
         className={cn(
           'border-r border-b flex items-center md:pl-8 border-[#D9D9D91A]',
-          heading && 'justify-center pb-4 pb-0'
+          heading && 'justify-center pb-4 md:pb-0'
         )}
       >
         {heading ? (
@@ -27,7 +27,7 @@ const TableBlock = ({ index }: TableBlockProps) => {
       <div
         className={cn(
           'border-b border-r border-[#D9D9D91A] flex justify-center items-center',
-          heading && 'pb-3 pb-0'
+          heading && 'pb-3 md:pb-0'
         )}
       >
         {heading ? (
