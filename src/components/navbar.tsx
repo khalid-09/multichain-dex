@@ -1,7 +1,7 @@
 import ConnectBtn from './connect-btn';
 const Navbar = () => {
   return (
-    <header className="pt-12 flex mx-auto items-center  justify-between">
+    <header className="md:pt-12 pt-6 flex mx-auto items-center  justify-between">
       <img src="/logo.png" alt="logo" width={184} height={73} />
       <nav className="w-[41.5rem] hidden lg:block ">
         <ul className="flex items-center justify-between text-white text-lg font-extrabold">
