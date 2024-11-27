@@ -29,13 +29,13 @@ const FAQS = () => {
       <Accordion
         type="single"
         collapsible
-        className="border-t border-[#BBBBBB1A] px-18 space-y-3"
+        className="border-t border-[#BBBBBB1A] border-opacity-10 px-18 space-y-3"
       >
         {faqs.map((faq, i) => (
           <AccordionItem
             key={i + 1}
             value={`item-${i + 1}`}
-            className="border-b border-[#BBBBBB1A] px-20"
+            className="border-b border-opacity-10 border-[#BBBBBB1A] px-20"
           >
             <AccordionTrigger className="font-medium text-lg">
               {faq.q}
