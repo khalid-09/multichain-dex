@@ -1,11 +1,11 @@
 import { cn } from '@/lib/utils';
 
 interface TableBlockProps {
-  heading: boolean;
   index: number;
 }
 
-const TableBlock = ({ heading, index }: TableBlockProps) => {
+const TableBlock = ({ index }: TableBlockProps) => {
+  const heading = index === 0;
   return (
     <div className="grid grid-cols-3">
       <div

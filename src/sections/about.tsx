@@ -2,15 +2,6 @@ import FeatureBox from '@/components/feature-box';
 import TableBlock from '@/components/table-blocks';
 import YellowLight from '@/components/yellow-light';
 
-const tableData = [
-  { heading: true, index: 0 },
-  { heading: false, index: 1 },
-  { heading: false, index: 2 },
-  { heading: false, index: 3 },
-  { heading: false, index: 4 },
-  { heading: false, index: 5 },
-];
-
 const featuresData = [
   {
     img: '/dollar.png',
@@ -52,8 +43,8 @@ const About = () => {
           opacity="opacity-40"
         />
         <div className="bg-[#BBBBBB1A] rounded-lg p-4 sm:p-6 md:p-8 relative z-10">
-          {tableData.map(({ heading, index }) => (
-            <TableBlock key={index} heading={heading} index={index} />
+          {Array.from({ length: 6 }).map((_, i) => (
+            <TableBlock index={i} key={i} />
           ))}
         </div>
       </div>
