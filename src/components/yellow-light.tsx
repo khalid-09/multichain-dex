@@ -8,6 +8,7 @@ interface YellowLightProps {
   size?: string;
   blur?: string;
   opacity?: string;
+  className?: string;
 }
 
 const YellowLight = ({
@@ -15,6 +16,7 @@ const YellowLight = ({
   left,
   right,
   bottom,
+  className,
   size = 'w-[500px] h-[500px]',
   blur = 'blur-[150px]',
   opacity = 'opacity-25',
@@ -29,7 +31,8 @@ const YellowLight = ({
         bottom,
         size,
         blur,
-        opacity
+        opacity,
+        className
       )}
       aria-hidden="true"
     />

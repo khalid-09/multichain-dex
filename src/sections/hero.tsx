@@ -1,15 +1,10 @@
 import ConnectBtn from '@/components/connect-btn';
 import Navbar from '@/components/navbar';
+import YellowLight from '@/components/yellow-light';
 
 const Hero = () => {
   return (
     <section className="max-w-[83.938rem] min-h-svh relative mx-auto px-4 sm:px-6 lg:px-8 xl:px-0">
-      {/* Yellow Light Effect */}
-      {/* <div
-        className="absolute top-0 left-0 w-[300px] h-[300px] rounded-full bg-[#E4B40D] opacity-20 blur-[100px] pointer-events-none"
-        aria-hidden="true"
-      ></div> */}
-
       <Navbar />
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between pt-16 lg:pt-0 relative z-10">
         <div
@@ -30,11 +25,18 @@ const Hero = () => {
             <ConnectBtn connect={false} className="w-full sm:w-auto" />
           </div>
         </div>
-        <div className="mt-12 lg:mt-0 lg:absolute lg:right-20 xl:right-10 lg:top-[16.438rem] relative z-0 lg:z-auto">
+        <div className="mt-12 lg:mt-0 lg:absolute lg:right-20 xl:right-10 lg:top-[16.438rem] relative">
+          <YellowLight
+            top="-translate-y-[10%]"
+            size="w-[200px] h-[230px]"
+            blur="blur-[150px]"
+            opacity="opacity-50"
+            className="absolute -z-10"
+          />
           <img
             src="/sphere.png"
             alt="hero"
-            className="w-full max-w-md lg:max-w-full mx-auto"
+            className="w-full max-w-md lg:max-w-full mx-auto relative z-10"
           />
         </div>
       </div>
