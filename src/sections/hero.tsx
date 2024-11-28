@@ -36,7 +36,7 @@ const Hero = () => {
           <img
             src="/sphere.png"
             alt="hero"
-            className="w-full max-w-md lg:max-w-full mx-auto relative z-10"
+            className="w-full max-w-md lg:max-w-full mx-auto size-[200px] md:size-auto relative z-10"
           />
         </div>
       </div>
