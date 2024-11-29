@@ -11,8 +11,8 @@ const FeatureBox = ({ image, title, description }: FeatureBoxProps) => {
         <img src={image} alt="dollar logo" />
       </div>
       <div>
-        <h3 className="text-xl font-semibold mt-6">{title}</h3>
-        <p className="text-[#B6B6B6] mt-2">{description}</p>
+        <h3 className="text-xl font-semibold mt-6 font-raleway">{title}</h3>
+        <p className="text-[#B6B6B6] font-poppins mt-2">{description}</p>
       </div>
     </div>
   );

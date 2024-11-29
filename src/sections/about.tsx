@@ -31,7 +31,7 @@ const featuresData = [
 const About = () => {
   return (
     <section className="relative mt-20 text-white max-w-[83.938rem] mx-auto">
-      <h2 className="md:text-5xl text-4xl font-extrabold pl-14 mb-10">
+      <h2 className="md:text-5xl text-4xl font-neueMachina font-extrabold pl-14 mb-10">
         Why <span className="text-[#E4B40D]">MoonEX</span> ?
       </h2>
       <div className="relative">
@@ -42,13 +42,13 @@ const About = () => {
           blur="blur-[150px]"
           opacity="opacity-40"
         />
-        <div className="bg-[#BBBBBB1A] rounded-lg p-4 mx-3 sm:p-6 md:p-8 relative z-10">
+        <div className="bg-[#BBBBBB1A] font-neueMachina rounded-lg p-4 mx-3 sm:p-6 md:p-8 relative z-10">
           {Array.from({ length: 6 }).map((_, i) => (
             <TableBlock index={i} key={i} />
           ))}
         </div>
       </div>
-      <h2 className="text-5xl font-extrabold text-center w-full my-14">
+      <h2 className="text-5xl font-neueMachina font-extrabold text-center w-full my-14">
         Our <span className="text-[#E4B40D]">Features</span>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-3 gap-6 md:gap-10">

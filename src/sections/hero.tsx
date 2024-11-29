@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="flex flex-col-reverse gap-20 lg:flex-row items-center lg:items-start justify-between pt-16 lg:pt-0 relative z-10">
         <div
           id="content"
-          className="text-white space-y-8 lg:space-y-12 w-full lg:w-[56.625rem] lg:absolute lg:top-[24.563rem] flex flex-col items-center lg:pl-12 lg:items-start"
+          className="text-white font-neueMachina space-y-8 lg:space-y-12 w-full lg:w-[56.625rem] lg:absolute lg:top-[24.563rem] flex flex-col items-center lg:pl-12 lg:items-start"
         >
           <div className="space-y-4">
             <h1 className="font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-[4.688rem] leading-tight lg:leading-[4.523rem] text-center lg:text-left">
@@ -20,7 +20,7 @@ const Hero = () => {
               Trade, earn, and own crypto on the all-in-one multi-chain DEX
             </h4>
           </div>
-          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center lg:justify-start">
+          <div className="flex flex-col font-raleway sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center lg:justify-start">
             <ConnectBtn className="text-[#071624] w-full sm:w-auto" connect />
             <ConnectBtn connect={false} className="w-full sm:w-auto" />
           </div>
