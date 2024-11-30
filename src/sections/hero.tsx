@@ -4,7 +4,10 @@ import YellowLight from '@/components/yellow-light';
 
 const Hero = () => {
   return (
-    <section className="max-w-[83.938rem] min-h-svh relative mx-auto px-4 sm:px-6 lg:px-8 xl:px-0">
+    <section
+      id="home"
+      className="max-w-[83.938rem] min-h-svh relative mx-auto px-4 sm:px-6 lg:px-8 xl:px-0"
+    >
       <Navbar />
       <div className="flex flex-col-reverse gap-20 lg:flex-row items-center lg:items-start justify-between pt-16 lg:pt-0 relative z-10">
         <div

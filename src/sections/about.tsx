@@ -30,8 +30,11 @@ const featuresData = [
 
 const About = () => {
   return (
-    <section className="relative mt-20 text-white max-w-[83.938rem] mx-auto">
-      <h2 className="md:text-5xl text-4xl font-neueMachina font-extrabold pl-14 mb-10">
+    <section
+      id="about"
+      className="relative mt-20 text-white max-w-[83.938rem] mx-auto"
+    >
+      <h2 className="md:text-5xl text-4xl text-center md:text-start font-neueMachina font-extrabold md:pl-14 mb-10">
         Why <span className="text-[#E4B40D]">MoonEX</span> ?
       </h2>
       <div className="relative">

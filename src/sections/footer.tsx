@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-[#051422] p-4 font-raleway md:h-80 ">
+    <footer id="contact" className="bg-[#051422] p-4 font-raleway md:h-80 ">
       <div className="mx-auto h-full max-w-[83.938rem]">
         <div className="h-full flex flex-col-reverse gap-6 md:gap-0  md:flex-row items-center justify-between">
           <img src="/footer-logo.png" />
